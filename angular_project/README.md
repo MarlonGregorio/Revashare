@@ -1,27 +1,37 @@
-# Angular
+# Revashare
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.10.
+In this social network, everyone is friends with everyone. As a user, you will be able to register and login to your account. When you successfully login, you are automatically friends with everyone which means you will see a feed of everyone's posts. Users will be able to create a post and like other people's posts. Users will also have the ability to view other profiles which will display posts of that specific user.
 
-## Development server
+## Technologies Used
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Spring MVC
+* PostgreSQL
+* Angular 2+
+* GCP Compute Engine
+* GCP Cloud SQL
+* Spring ORM
+* Java
+* Hibernate
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* Register/Login to an Account.
+* Request to reset an account password.
+* Update account information, and upload a user photo.
+* Create a post with a description and uploaded images.
+* Make a comment or add a like to a post.
+* View a global feed of user posts.
+* Visit a person's profile to see the posts and comments they have made.
 
-## Build
+## Getting Started
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Follow these steps to set up the project.
 
-## Running unit tests
+1. a
+2. b
+3. c
+4. d
+5. e
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Usage
