@@ -27,11 +27,19 @@ In this social network, everyone is friends with everyone. As a user, you will b
 
 Follow these steps to set up the project.
 
-1. a
-2. b
-3. c
-4. d
-5. e
+1. Make sure you have git installed.
+2. Clone this repository in a folder. It contains the Angular server and the Spring MVC server.
+3. In the Angular project folder, there is a constants.ts file that holds the endpoints for the Spring controllers. Change these if necessary.
+4. In the Spring project folder, there is a controllers package with two controllers. Change the CrossOrigin annotation to the port the angular project is running on.
+5. Also in the Spring project folder, modify the dataSource bean in applicationContext to hold your database credentials.
+6. Use "ng serve" to run the angular project.
+7. To run the Spring MVC server, use Tomcat to run the project's War file.
 
 
 ## Usage
+
+A user is prompted at the start to login or register an account. Once registered they can interact with other user posts as well as create their own.
+
+![screen shot1](https://i.imgur.com/FbZDC3F.png)
+
+![screen shot2](https://i.imgur.com/gPIjygG.png)
